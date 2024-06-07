@@ -17,16 +17,6 @@
     <properties>
         <java.version>21</java.version>
 
-        <!--JaCOCO-->
-        <jacoco.version>0.8.11</jacoco.version>
-        <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
-        <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-        <sonar.coverage.jacoco.xmlReportPath>${project.basedir}/../target/jacoco.xml
-        </sonar.coverage.jacoco.xmlReportPath>
-        <sonar.language>java</sonar.language>
-        <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
-        <sonar.exclusions>src/main/java/org/solidus/rest/controller/RestApiExceptionHandler.java</sonar.exclusions>
-
         <solidus-shared.version>1.1.2</solidus-shared.version>
         <solidus-ms-pipeline-starter.version>0.0.27</solidus-ms-pipeline-starter.version>
         <solidus-external-client-auth-spring-boot-starter.version>0.0.26</solidus-external-client-auth-spring-boot-starter.version>
