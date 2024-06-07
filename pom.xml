@@ -28,7 +28,7 @@
         <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
         <sonar.exclusions>src/main/java/org/solidus/rest/controller/RestApiExceptionHandler.java</sonar.exclusions>
 
-        <solidus-shared.version>0.4.769</solidus-shared.version>
+        <solidus-shared.version>1.1.5</solidus-shared.version>
         <solidus-ms-pipeline-starter.version>0.0.27</solidus-ms-pipeline-starter.version>
         <solidus-external-client-auth-spring-boot-starter.version>0.0.26</solidus-external-client-auth-spring-boot-starter.version>
 
