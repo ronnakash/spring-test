@@ -17,6 +17,9 @@
     <properties>
         <java.version>21</java.version>
 
+
+
+
         <solidus-shared.version>1.1.4</solidus-shared.version>
         <solidus-ms-pipeline-starter.version>0.0.27</solidus-ms-pipeline-starter.version>
         <solidus-external-client-auth-spring-boot-starter.version>0.0.26</solidus-external-client-auth-spring-boot-starter.version>
